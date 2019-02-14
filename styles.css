@@ -1,7 +1,7 @@
 /* zero results search results page */
-.nsearch-index-index .nxt-content { margin-left: 0; }
-.nsearch-index-index .nxt-toolbar { padding-left: 0; }
-.nsearch-index-index .col-left {display:none;}
-.nsearch-index-index .col-main {float:left !important;}
-.nsearch-index-index .nxt-nrf-suggestion {color:#333333;font-size:18px;font-weight:400;text-transform: uppercase;margin: 10px 0 50px 0;}
-.nsearch-index-index .nxt-nrf-suggestion a {text-transform: none;}
+body.nsearch-index-index.catalogsearch-result-index .nxt-content { margin-left: 0; }
+body.nsearch-index-index.catalogsearch-result-index .nxt-toolbar { padding-left: 0; }
+body.nsearch-index-index.catalogsearch-result-index .col-left {display:none;}
+body.nsearch-index-index.catalogsearch-result-index .col-main {float:left !important;}
+body.nsearch-index-index.catalogsearch-result-index .nxt-nrf-suggestion {color:#333333;font-size:18px;font-weight:400;text-transform: uppercase;margin: 10px 0 50px 0;}
+body.nsearch-index-index.catalogsearch-result-index .nxt-nrf-suggestion a {text-transform: none;}
