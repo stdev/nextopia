@@ -1,0 +1,90 @@
+/* zero results search results page */
+body.nsearch-index-index.catalogsearch-result-index {
+    .nxt-content { margin-left: 0; }
+    .nxt-toolbar { padding-left: 0; }
+    .col-left {display:none;}
+    .col-main {float:left !important;}
+    .nxt-nrf-suggestion {color:#333333;font-size:18px;font-weight:400;text-transform: uppercase;margin: 10px 0 50px 0;}
+    .nxt-nrf-suggestion a {text-transform: none;}
+}
+/* product page - More From This Author */
+body.catalog-product-view #next-cross {
+    box-sizing: border-box;
+    .nxt-app-header {
+        font-size: 1.25rem;
+        color: #69A14B;
+        font-weight: 400;
+        margin: 1rem 0 1rem 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+    .nxt-yml .price-box {
+        font-weight: 300;
+    }
+    @media only screen and (min-width: 960px) {
+        .products-grid--max-4-col > li {
+            width: 20%;
+            margin: 0;
+        }
+        .products-grid--max-4-col > li:nth-child(even), .products-grid--max-4-col > li:nth-child(3n) {
+            margin: 0;
+        }
+        .products-grid--max-4-col > li:nth-child(4n+1) {
+            clear: none;
+        }
+    }
+    @media only screen and (max-width: 530px) {
+        .products-grid li {
+            float: none;
+            width: 100%;
+            margin-right: 0;
+            text-align: left;
+            a.product-image {
+                float: left;
+                img {
+                    width:100px;
+                }
+            }
+            .title-author-block {
+                margin-left: 120px;
+                .rating-box {
+                    margin: 0;
+                }
+            }
+            .price-box {
+                margin-left: 120px;
+            }
+        }
+    }
+}
+/* category page - Recently Viewed Products & You Might Also Enjoy */
+body.catalog-category-view #nextopia-right-col {
+    .nxt-app-header {
+        font-size: 0.875rem;
+        color: #69A14B;
+        font-weight: 500;
+        margin: 1rem 0 1rem 0;
+        padding: 0;
+        line-height: 1.5;
+        text-transform: uppercase;
+    }
+    .nxt-yml {
+        li {
+            a.product-image {
+                width: 50px;
+                float: left;
+                height: auto;
+            } 
+            .title-author-block {
+                margin-left: 60px;
+                text-align: left;
+            }
+            .product-name a {
+                font-size: 0.875rem;
+            }
+            .ratings, .price-box {
+            display: none;
+            }
+        }
+    }
+}
