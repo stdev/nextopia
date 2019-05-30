@@ -1,5 +1,6 @@
 /* zero results search results page */
 body.nsearch-index-index.catalogsearch-result-index {
+    font-family: "Montserrat", Verdana, Arial, sans-serif;
     .nxt-content { margin-left: 0; }
     .nxt-toolbar { padding-left: 0; }
     .col-left {display:none;}
@@ -9,14 +10,22 @@ body.nsearch-index-index.catalogsearch-result-index {
 }
 /* product page - More From This Author */
 body.catalog-product-view #next-cross {
+    font-family: "Montserrat", Verdana, Arial, sans-serif;
     box-sizing: border-box;
+   
     .nxt-app-header {
-        font-size: 1.25rem;
-        color: #69A14B;
+        font-size: 1.5rem;
+        color: #5B6770;
         font-weight: 400;
         margin: 1rem 0 1rem 0;
         padding: 0;
         line-height: 1.5;
+        text-transform: uppercase;
+        font-family: "Montserrat", Verdana, Arial, sans-serif;
+    }
+    .nxt-yml.nxt-responsive {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #c0c0c0;
     }
     .nxt-yml .price-box {
         font-weight: 300;
@@ -61,7 +70,7 @@ body.catalog-product-view #next-cross {
 body.catalog-category-view #nextopia-right-col {
     .nxt-app-header {
         font-size: 0.875rem;
-        color: #69A14B;
+        color: #5B6770;
         font-weight: 500;
         margin: 1rem 0 1rem 0;
         padding: 0;
