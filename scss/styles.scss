@@ -1,0 +1,117 @@
+/* zero results search results page */
+body.nsearch-index-index.catalogsearch-result-index {
+    font-family: "Montserrat", Verdana, Arial, sans-serif;
+    .nxt-content { margin-left: 0; }
+    .nxt-toolbar { padding-left: 0; }
+    .col-left {display:none;}
+    .col-main {float:left !important;}
+    .nxt-nrf-suggestion {color:#333333;font-size:18px;font-weight:400;text-transform: uppercase;margin: 10px 0 50px 0;}
+    .nxt-nrf-suggestion a {text-transform: none;}
+}
+/* product page - More From This Author */
+body.catalog-product-view #next-cross {
+    font-family: "Montserrat", Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+   
+    .nxt-app-header {
+        font-size: 1.5rem;
+        color: #5B6770;
+        font-weight: 400;
+        margin: 1rem 0 1rem 0;
+        padding: 0;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-family: "Montserrat", Verdana, Arial, sans-serif;
+    }
+    .nxt-yml.nxt-responsive {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #c0c0c0;
+    }
+    .nxt-yml .price-box {
+        font-weight: 300;
+    }
+    @media only screen and (min-width: 960px) {
+        .products-grid--max-4-col > li {
+            width: 20%;
+            margin: 0;
+        }
+        .products-grid--max-4-col > li:nth-child(even), .products-grid--max-4-col > li:nth-child(3n) {
+            margin: 0;
+        }
+        .products-grid--max-4-col > li:nth-child(4n+1) {
+            clear: none;
+        }
+    }
+    @media only screen and (max-width: 530px) {
+        .products-grid li {
+            float: none;
+            width: 100%;
+            margin-right: 0;
+            text-align: left;
+            a.product-image {
+                float: left;
+                img {
+                    width:100px;
+                }
+            }
+            .title-author-block {
+                margin-left: 120px;
+                .rating-box {
+                    margin: 0;
+                }
+            }
+            .price-box {
+                margin-left: 120px;
+            }
+        }
+    }
+}
+/* category page - Recently Viewed Products & You Might Also Enjoy */
+body.catalog-category-view #nextopia-right-col {
+    .nxt-app-header {
+        font-size: 0.875rem;
+        color: #5B6770;
+        font-weight: 500;
+        margin: 1rem 0 1rem 0;
+        padding: 0;
+        line-height: 1.5;
+        text-transform: uppercase;
+    }
+    .nxt-yml {
+        li {
+            a.product-image {
+                width: 50px;
+                float: left;
+                height: auto;
+            } 
+            .title-author-block {
+                margin-left: 60px;
+                text-align: left;
+            }
+            .product-name a {
+                font-size: 0.875rem;
+            }
+            .ratings, .price-box {
+            display: none;
+            }
+        }
+    }
+}
+/* Nextopia search box drop down */
+body .nxt-ac-main {
+    .nxt-ac-header {
+        background-color:#5B6770;
+    }
+    .nxt-ac-item .nxt-item-txt {
+        color:#0652af;
+    }
+}
+/* Homepage rating stars */
+body.cms-home .main-container.full-layout .category-products .products-grid .st-item-content .ratings .rating-box {
+    margin: 0;
+}
+@media only screen and (min-width: 979px) {
+    body.cms-home .main-container.full-layout .category-products .products-grid .st-item-content .ratings .rating-box {
+        margin: 0 auto;
+    }
+}
