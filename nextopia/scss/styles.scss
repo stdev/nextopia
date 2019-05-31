@@ -97,3 +97,21 @@ body.catalog-category-view #nextopia-right-col {
         }
     }
 }
+/* Nextopia search box drop down */
+body .nxt-ac-main {
+    .nxt-ac-header {
+        background-color:#5B6770;
+    }
+    .nxt-ac-item .nxt-item-txt {
+        color:#0652af;
+    }
+}
+/* Homepage rating stars */
+body.cms-home .main-container.full-layout .category-products .products-grid .st-item-content .ratings .rating-box {
+    margin: 0;
+}
+@media only screen and (min-width: 979px) {
+    body.cms-home .main-container.full-layout .category-products .products-grid .st-item-content .ratings .rating-box {
+        margin: 0 auto;
+    }
+}
